@@ -4,8 +4,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
     printf("hello");
-    return (0);
+    return 0;
 }
