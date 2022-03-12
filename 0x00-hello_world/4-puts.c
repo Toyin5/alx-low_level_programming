@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
-int main()
+/*
+ * A function that uses puts
+ *
+ */
+int main(void)
 {
     char str[55];
     strcpy(str, "\"Programming is like building a multilingual puzzle");
