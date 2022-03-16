@@ -1,21 +1,18 @@
-
 #include <stdio.h>
-
 /**
- * main - Entry point
- * Return:0
+ * main - main function
+ * description - A program that prints all numbers
+ * of base 16 in lowercase
+ * Return:(0) for success
  */
 int main(void)
 {
-	int i, y;
+	int y, i;
+
 	for (i = 0; i < 10; i++)
-	{
-		putchar (i + '0');
-	}
+		putchar(i + '0');
 	for (y = 'a'; y <= 'f'; y++)
-	{
 		putchar (y);
-	}
 
 putchar('\n');
 return (0);
